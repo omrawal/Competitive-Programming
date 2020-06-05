@@ -1,0 +1,5 @@
+n=int(input())
+var=list(map(int,input().split()))
+a=list(set(var))
+a=sorted(a)
+print(a[-2])
